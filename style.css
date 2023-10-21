@@ -23,6 +23,7 @@ hmtl
     font-size:  62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    background: grey;
 }
 header{
     position : absolute;
@@ -123,16 +124,9 @@ header .icons #menu{
 .home .home-slider .wrapper .slide1{
     background-image: url(images/gamer.png);
 }
-.home .home-slider .wrapper .slide2{
-    background-image : url(images/mobile.png);
-}
-.home .home_slider .wrapper .slide3{
-    background-image : url(images/programming.png);
-}
+
 
 .home .home-slider .slide1
-.home .home-slider .slide2
-.home .home-slider .slide3
 {
     background-size: cover;
     background-repeat: no-repeat;
@@ -192,4 +186,57 @@ header .icons #menu{
 
 .btn:hover.btn:before{
     left:0;
+}
+
+section{
+    padding : 8rem 9%;
+}
+
+.heading{
+    text-align: center;
+    color : #000000;
+    font-size : 4.5rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing:  1.3px;
+}
+
+.sub-heading{
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    padding: .5rem  2rem;
+    font-weight: 300;
+    margin-bottom: flex;
+    background:rgb(59, 2, 45);
+    display: inline-block;
+    gap : 1.5rem;
+}
+
+.welcome .box-container{
+    display: flex;
+    gap : 1.5rem;
+}
+.welcome .box-container .box{
+    width: 33%;
+    color: white;
+    background: black;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    padding-bottom: 1%;
+}
+.welcome .box-container .box .image{
+    height: 25 rem;
+    width: 100%;
+    overflow : hidden;
+    position : relative;
+}
+.welcome .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.welcome .box-container .box .image:hover img{
+    transform: scale(1.1);
 }

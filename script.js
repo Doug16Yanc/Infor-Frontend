@@ -5,3 +5,4 @@ menu.onlick = () =>{
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
 }
+
